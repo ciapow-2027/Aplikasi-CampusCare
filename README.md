@@ -1,1 +1,2 @@
+Campus care merupakan rancangan aplikasi mobile yang berfokus pada pelaporan kerusakan fasilitas di lingkungan kampus. Aplikasi ini dirancang agar mahasiswa dapat menyampaikan laporan melalui satu tempat dengan mengisi informasi mengenai fasilitas yang mengalami kerusakan, lokasi, kategori, deskripsi masalah, serta foto pendukung apabila tersedia. 
 Aplikasi ini diharapkan bisa menjadi sarana pelaporan kerusakan fasilitas kampus yang lebih terstruktur, mudah digunakan dan bisa dipantau oleh pengguna.
