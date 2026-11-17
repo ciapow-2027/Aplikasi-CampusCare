@@ -8,10 +8,10 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: const Color(0xFFFFFFFF),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 100),
+          padding: const EdgeInsets.symmetric(horizontal: 50),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -24,10 +24,10 @@ class WelcomePage extends StatelessWidget {
               ),
               const SizedBox(height: 8),
               const Text(
-                'Halo! Selamat Datang di CampusCare',
+                'Peduli Kampus, Lapor Sekarang',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Color(0xFF0D47A1),
                 ),
@@ -37,8 +37,8 @@ class WelcomePage extends StatelessWidget {
               // Tombol Masuk Sebagai Mahasiswa
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFFFFB800),
-                  foregroundColor: Colors.white,
+                  backgroundColor: const Color(0xFF2ECC71),
+                  foregroundColor: const Color(0xFFFFFFFF),
                   padding: const EdgeInsets.symmetric(vertical: 14),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(8),
@@ -63,7 +63,7 @@ class WelcomePage extends StatelessWidget {
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFF1E88E5),
-                  foregroundColor: Colors.white,
+                  foregroundColor: const Color(0xFFFFFFFF),
                   padding: const EdgeInsets.symmetric(vertical: 14),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(8),
